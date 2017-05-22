@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D5D1F9611ED03B2D007C03CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D1F9601ED03B2D007C03CF /* AppDelegate.swift */; };
+		D5D1F9631ED03B2D007C03CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D1F9621ED03B2D007C03CF /* ViewController.swift */; };
+		D5D1F9651ED03B2D007C03CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5D1F9641ED03B2D007C03CF /* Assets.xcassets */; };
+		D5D1F9681ED03B2D007C03CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5D1F9661ED03B2D007C03CF /* Main.storyboard */; };
+		D5D1F9731ED03B2D007C03CF /* SKFPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D1F9721ED03B2D007C03CF /* SKFPlayerTests.swift */; };
+		D5D1F97E1ED03B2D007C03CF /* SKFPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D1F97D1ED03B2D007C03CF /* SKFPlayerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D5D1F96F1ED03B2D007C03CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5D1F9551ED03B2D007C03CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5D1F95C1ED03B2D007C03CF;
+			remoteInfo = SKFPlayer;
+		};
+		D5D1F97A1ED03B2D007C03CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5D1F9551ED03B2D007C03CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5D1F95C1ED03B2D007C03CF;
+			remoteInfo = SKFPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D5D1F95D1ED03B2D007C03CF /* SKFPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKFPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5D1F9601ED03B2D007C03CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D5D1F9621ED03B2D007C03CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D5D1F9641ED03B2D007C03CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5D1F9671ED03B2D007C03CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D5D1F9691ED03B2D007C03CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5D1F96E1ED03B2D007C03CF /* SKFPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKFPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5D1F9721ED03B2D007C03CF /* SKFPlayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKFPlayerTests.swift; sourceTree = "<group>"; };
+		D5D1F9741ED03B2D007C03CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5D1F9791ED03B2D007C03CF /* SKFPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKFPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5D1F97D1ED03B2D007C03CF /* SKFPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKFPlayerUITests.swift; sourceTree = "<group>"; };
+		D5D1F97F1ED03B2D007C03CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5D1F95A1ED03B2D007C03CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5D1F96B1ED03B2D007C03CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5D1F9761ED03B2D007C03CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D5D1F9541ED03B2D007C03CF = {
+			isa = PBXGroup;
+			children = (
+				D5D1F95F1ED03B2D007C03CF /* SKFPlayer */,
+				D5D1F9711ED03B2D007C03CF /* SKFPlayerTests */,
+				D5D1F97C1ED03B2D007C03CF /* SKFPlayerUITests */,
+				D5D1F95E1ED03B2D007C03CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D5D1F95E1ED03B2D007C03CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5D1F95D1ED03B2D007C03CF /* SKFPlayer.app */,
+				D5D1F96E1ED03B2D007C03CF /* SKFPlayerTests.xctest */,
+				D5D1F9791ED03B2D007C03CF /* SKFPlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5D1F95F1ED03B2D007C03CF /* SKFPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				D5D1F9601ED03B2D007C03CF /* AppDelegate.swift */,
+				D5D1F9621ED03B2D007C03CF /* ViewController.swift */,
+				D5D1F9641ED03B2D007C03CF /* Assets.xcassets */,
+				D5D1F9661ED03B2D007C03CF /* Main.storyboard */,
+				D5D1F9691ED03B2D007C03CF /* Info.plist */,
+			);
+			path = SKFPlayer;
+			sourceTree = "<group>";
+		};
+		D5D1F9711ED03B2D007C03CF /* SKFPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				D5D1F9721ED03B2D007C03CF /* SKFPlayerTests.swift */,
+				D5D1F9741ED03B2D007C03CF /* Info.plist */,
+			);
+			path = SKFPlayerTests;
+			sourceTree = "<group>";
+		};
+		D5D1F97C1ED03B2D007C03CF /* SKFPlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D5D1F97D1ED03B2D007C03CF /* SKFPlayerUITests.swift */,
+				D5D1F97F1ED03B2D007C03CF /* Info.plist */,
+			);
+			path = SKFPlayerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5D1F95C1ED03B2D007C03CF /* SKFPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5D1F9821ED03B2D007C03CF /* Build configuration list for PBXNativeTarget "SKFPlayer" */;
+			buildPhases = (
+				D5D1F9591ED03B2D007C03CF /* Sources */,
+				D5D1F95A1ED03B2D007C03CF /* Frameworks */,
+				D5D1F95B1ED03B2D007C03CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SKFPlayer;
+			productName = SKFPlayer;
+			productReference = D5D1F95D1ED03B2D007C03CF /* SKFPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D5D1F96D1ED03B2D007C03CF /* SKFPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5D1F9851ED03B2D007C03CF /* Build configuration list for PBXNativeTarget "SKFPlayerTests" */;
+			buildPhases = (
+				D5D1F96A1ED03B2D007C03CF /* Sources */,
+				D5D1F96B1ED03B2D007C03CF /* Frameworks */,
+				D5D1F96C1ED03B2D007C03CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5D1F9701ED03B2D007C03CF /* PBXTargetDependency */,
+			);
+			name = SKFPlayerTests;
+			productName = SKFPlayerTests;
+			productReference = D5D1F96E1ED03B2D007C03CF /* SKFPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D5D1F9781ED03B2D007C03CF /* SKFPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5D1F9881ED03B2D007C03CF /* Build configuration list for PBXNativeTarget "SKFPlayerUITests" */;
+			buildPhases = (
+				D5D1F9751ED03B2D007C03CF /* Sources */,
+				D5D1F9761ED03B2D007C03CF /* Frameworks */,
+				D5D1F9771ED03B2D007C03CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5D1F97B1ED03B2D007C03CF /* PBXTargetDependency */,
+			);
+			name = SKFPlayerUITests;
+			productName = SKFPlayerUITests;
+			productReference = D5D1F9791ED03B2D007C03CF /* SKFPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5D1F9551ED03B2D007C03CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Skifary;
+				TargetAttributes = {
+					D5D1F95C1ED03B2D007C03CF = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = HCGGZBEBSU;
+						ProvisioningStyle = Automatic;
+					};
+					D5D1F96D1ED03B2D007C03CF = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = HCGGZBEBSU;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D5D1F95C1ED03B2D007C03CF;
+					};
+					D5D1F9781ED03B2D007C03CF = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = HCGGZBEBSU;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D5D1F95C1ED03B2D007C03CF;
+					};
+				};
+			};
+			buildConfigurationList = D5D1F9581ED03B2D007C03CF /* Build configuration list for PBXProject "SKFPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5D1F9541ED03B2D007C03CF;
+			productRefGroup = D5D1F95E1ED03B2D007C03CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5D1F95C1ED03B2D007C03CF /* SKFPlayer */,
+				D5D1F96D1ED03B2D007C03CF /* SKFPlayerTests */,
+				D5D1F9781ED03B2D007C03CF /* SKFPlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5D1F95B1ED03B2D007C03CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5D1F9651ED03B2D007C03CF /* Assets.xcassets in Resources */,
+				D5D1F9681ED03B2D007C03CF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5D1F96C1ED03B2D007C03CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5D1F9771ED03B2D007C03CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5D1F9591ED03B2D007C03CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5D1F9631ED03B2D007C03CF /* ViewController.swift in Sources */,
+				D5D1F9611ED03B2D007C03CF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5D1F96A1ED03B2D007C03CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5D1F9731ED03B2D007C03CF /* SKFPlayerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5D1F9751ED03B2D007C03CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5D1F97E1ED03B2D007C03CF /* SKFPlayerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D5D1F9701ED03B2D007C03CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5D1F95C1ED03B2D007C03CF /* SKFPlayer */;
+			targetProxy = D5D1F96F1ED03B2D007C03CF /* PBXContainerItemProxy */;
+		};
+		D5D1F97B1ED03B2D007C03CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5D1F95C1ED03B2D007C03CF /* SKFPlayer */;
+			targetProxy = D5D1F97A1ED03B2D007C03CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D5D1F9661ED03B2D007C03CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5D1F9671ED03B2D007C03CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D5D1F9801ED03B2D007C03CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D5D1F9811ED03B2D007C03CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		D5D1F9831ED03B2D007C03CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = HCGGZBEBSU;
+				INFOPLIST_FILE = SKFPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Skafary.Guo.SKFPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D5D1F9841ED03B2D007C03CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = HCGGZBEBSU;
+				INFOPLIST_FILE = SKFPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Skafary.Guo.SKFPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D5D1F9861ED03B2D007C03CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = HCGGZBEBSU;
+				INFOPLIST_FILE = SKFPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Skafary.Guo.SKFPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SKFPlayer.app/Contents/MacOS/SKFPlayer";
+			};
+			name = Debug;
+		};
+		D5D1F9871ED03B2D007C03CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = HCGGZBEBSU;
+				INFOPLIST_FILE = SKFPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Skafary.Guo.SKFPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SKFPlayer.app/Contents/MacOS/SKFPlayer";
+			};
+			name = Release;
+		};
+		D5D1F9891ED03B2D007C03CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = HCGGZBEBSU;
+				INFOPLIST_FILE = SKFPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Skafary.Guo.SKFPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SKFPlayer;
+			};
+			name = Debug;
+		};
+		D5D1F98A1ED03B2D007C03CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = HCGGZBEBSU;
+				INFOPLIST_FILE = SKFPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Skafary.Guo.SKFPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SKFPlayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5D1F9581ED03B2D007C03CF /* Build configuration list for PBXProject "SKFPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5D1F9801ED03B2D007C03CF /* Debug */,
+				D5D1F9811ED03B2D007C03CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5D1F9821ED03B2D007C03CF /* Build configuration list for PBXNativeTarget "SKFPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5D1F9831ED03B2D007C03CF /* Debug */,
+				D5D1F9841ED03B2D007C03CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5D1F9851ED03B2D007C03CF /* Build configuration list for PBXNativeTarget "SKFPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5D1F9861ED03B2D007C03CF /* Debug */,
+				D5D1F9871ED03B2D007C03CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5D1F9881ED03B2D007C03CF /* Build configuration list for PBXNativeTarget "SKFPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5D1F9891ED03B2D007C03CF /* Debug */,
+				D5D1F98A1ED03B2D007C03CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5D1F9551ED03B2D007C03CF /* Project object */;
+}
