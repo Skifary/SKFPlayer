@@ -12,7 +12,14 @@ class ViewController: NSViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        
+        av_register_all();
+        let version = avcodec_version()
+        NSLog("%d", version)
+       
+        
+        
         // Do any additional setup after loading the view.
     }
 
